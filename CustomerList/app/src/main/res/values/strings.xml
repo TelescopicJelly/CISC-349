@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">CustomerList</string>
+    <string name="comments_label">Comments:</string>
+    <string name="button_label">Add</string>
+    <string name="add_customer_label">Add Customer</string>
+    <string name="customer_name_label">Customer Name</string>
+    <string name="address_label">Address</string>
+    <string name="phone_number_label">Phone Number</string>
+    <string name="save_button_label">Save Button</string>
+    <string name="comment_hint_label">Comment Hint</string>
 </resources>

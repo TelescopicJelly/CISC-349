@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_customer_label"
+        android:textSize="22sp"
+        android:layout_marginVertical="20sp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/name_input"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:hint="@string/customer_name_label"/>
+
+    <EditText
+        android:id="@+id/address_input"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:hint="@string/address_label"/>
+
+    <EditText
+        android:id="@+id/phone_input"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:hint="@string/phone_number_label"/>
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/save_button_label"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
