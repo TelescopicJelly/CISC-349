@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="64sp"
+    android:paddingVertical="32sp"
+    android:background="@color/Calypso">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up"
+        android:textSize="28sp"
+        android:layout_marginHorizontal="18sp"
+        android:layout_gravity="center"
+        android:textColor="@color/White"
+        android:layout_marginTop="60sp"
+        android:typeface="monospace"/>
+
+    <EditText
+        android:id="@+id/username_input"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:hint="@string/username"
+        android:layout_gravity="center"
+        android:layout_marginTop="120sp"
+        android:textColorHint="@color/White"/>
+
+    <EditText
+        android:id="@+id/password_input"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="textPassword"
+        android:hint="@string/password"
+        android:layout_gravity="center"
+        android:textColorHint="@color/White"/>
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="120sp"
+        android:layout_height="wrap_content"
+        android:text="@string/save_button"
+        android:layout_gravity="center"
+        android:layout_marginTop="50sp"
+        android:backgroundTint="@color/Light_purple"/>
+
+
+</LinearLayout>

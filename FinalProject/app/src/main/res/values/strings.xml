@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Final Project</string>
+    <string name="welcome">Welcome</string>
+    <string name="to">to</string>
+    <string name="CookingSimulator">CookingSimulator</string>
+
+
+
+
+    <string name="title">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+
+    <string name="save_button">Save</string>
+    <string name="or_text">or</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login_button">Login</string>
+    <string name="play_button">Play</string>
+    <string name="failure">Login failure!</string>
+    <string name="success">Login success!</string>
+</resources>

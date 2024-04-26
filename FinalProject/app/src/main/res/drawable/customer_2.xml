@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Customer image -->
+    <item
+        android:drawable="@drawable/mysims_customer2"
+        android:width="305dp"
+        android:height="350dp"
+        android:viewportWidth="908"
+        android:viewportHeight="908"/>
+
+    <!-- Speech bubble positioned above the customer -->
+    <item
+        android:drawable="@drawable/speech_bubbled"
+        android:width="508dp"
+        android:height="300sp"
+        android:viewportWidth="908"
+        android:viewportHeight="908"
+        android:top="-150dp" />
+
+    <item
+        android:drawable="@drawable/order_thinking"
+        android:width="100dp"
+        android:height="100sp"
+        android:viewportWidth="308"
+        android:viewportHeight="308"
+        android:top="-70dp"
+        android:left="200dp"/>
+
+</layer-list>

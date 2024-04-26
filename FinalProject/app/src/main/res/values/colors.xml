@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Black">#FF000000</color>
+    <color name="White">#FFFFFFFF</color>
+    <color name="Faded_jade">#3B7D7B</color>
+    <color name="St_tropaz">#2454A3</color>
+    <color name="Calypso">#306B8B</color>
+    <color name="Minsk">#50377F</color>
+    <color name="Daisy_bush">#38299E</color>
+    <color name="Orange">#F4511E</color>
+    <color name="Velvet">#79214E</color>
+    <color name="Grey">#454042</color>
+    <color name="Light_purple">#8063C0</color>
+    <color name="Sky_blue">#94FBFF</color>
+
+</resources>

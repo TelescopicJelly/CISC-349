@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Sky_blue">
+
+<!-- Go Button  -->
+    <ImageView
+        android:id="@+id/GoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/go_button"/>
+
+<!-- You Win  -->
+    <ImageView
+    android:id="@+id/YouWin"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/gameover_youwin"/>
+
+<!-- Player Model -->
+    <ImageView
+        android:id="@+id/Character"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:src="@drawable/frontfemalecharactermodel"
+        android:translationX="280dp"
+        android:translationY="200dp" />
+
+<!-- Store Layout -->
+    <ImageView
+        android:id="@+id/BackCounter"
+        android:layout_width="300sp"
+        android:layout_height="300sp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:translationY="-260dp"
+        android:src="@drawable/kitchencountertop"/>
+
+    <ImageView
+        android:id="@+id/FrontCounter"
+        android:layout_width="300sp"
+        android:layout_height="300sp"
+        android:translationY="240dp"
+        android:translationX="-50dp"
+        app:srcCompat="@drawable/kitchencountertop"/>
+
+    <ImageView
+        android:id="@+id/CashRegister"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:translationY="290dp"
+        android:translationX="10dp"
+        app:srcCompat="@drawable/register"/>
+
+    <ImageView
+        android:id="@+id/FoodOption1"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:translationY="-300dp"
+        android:src="@drawable/fastfood"/>
+
+    <ImageView
+        android:id="@+id/FoodOption2"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:translationY="-300dp"
+        android:translationX="-85dp"
+        android:src="@drawable/gyoza"/>
+
+    <ImageView
+        android:id="@+id/FoodOption3"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:translationY="-300dp"
+        android:translationX="-170dp"
+        android:src="@drawable/salad"/>
+
+<!-- Customers -->
+    <ImageView
+        android:id="@+id/Customer1"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:translationY="600dp"
+        android:translationX="80dp"
+        app:srcCompat="@drawable/customer_1"/>
+
+    <ImageView
+        android:id="@+id/Customer2"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:translationY="600dp"
+        android:translationX="80dp"
+        app:srcCompat="@drawable/customer_2"/>
+
+ <!-- Customer Order -->
+    <ImageView
+        android:id="@+id/Order_Change"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:translationY="280dp"
+        android:translationX="190dp"
+        android:src="@drawable/order_thinking"/>
+
+</RelativeLayout>
